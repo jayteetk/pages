@@ -1,0 +1,44 @@
+
+    <html>
+    <head>
+      <script type="text/javascript" src="../lib/vis/dist/vis.js"></script>
+      <link href="../lib/vis/dist/vis.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <div id="cf4f16ec-c880-4402-a693-5684ef10ef58"></div>
+    <script type="text/javascript">
+      var nodes  = [{"id": 223, "label": "lay-k", "group": "User", "title": "{'degree': 15.0, 'user': 'lay-k', 'eigenvector': 22.241761406544}"}, {"id": 103, "label": "kenneth.lay@enron.com", "group": "Address", "title": "{'degree': 7.0, 'address': 'kenneth.lay@enron.com', 'eigenvector': 12.910702002826481}"}, {"id": 190, "label": "kean-s", "group": "User", "title": "{'degree': 29.0, 'user': 'kean-s', 'eigenvector': 40.316403427753}"}, {"id": 200, "label": "shapiro-r", "group": "User", "title": "{'degree': 16.0, 'user': 'shapiro-r', 'eigenvector': 24.032034052196295}"}, {"id": 273, "label": "rogers-b", "group": "User", "title": "{'degree': 6.0, 'user': 'rogers-b', 'eigenvector': 7.764394569802432}"}, {"id": 239, "label": "haedicke-m", "group": "User", "title": "{'degree': 27.0, 'user': 'haedicke-m', 'eigenvector': 47.02865188721135}"}, {"id": 227, "label": "buy-r", "group": "User", "title": "{'degree': 12.0, 'user': 'buy-r', 'eigenvector': 23.450644475999624}"}, {"id": 263, "label": "mclaughlin-e", "group": "User", "title": "{'degree': 12.0, 'user': 'mclaughlin-e', 'eigenvector': 8.279947979036121}"}, {"id": 101, "label": "rosalee.fleming@enron.com", "group": "Address", "title": "{'degree': 13.0, 'address': 'rosalee.fleming@enron.com', 'eigenvector': 26.52293387580231}"}, {"id": 225, "label": "whalley-l", "group": "User", "title": "{'degree': 17.0, 'user': 'whalley-l', 'eigenvector': 30.990346436980516}"}, {"id": 237, "label": "beck-s", "group": "User", "title": "{'degree': 20.0, 'user': 'beck-s', 'eigenvector': 30.43309090811327}"}, {"id": 286, "label": "delainey-d", "group": "User", "title": "{'degree': 8.0, 'user': 'delainey-d', 'eigenvector': 7.481369442898183}"}, {"id": 274, "label": "hayslett-r", "group": "User", "title": "{'degree': 12.0, 'user': 'hayslett-r', 'eigenvector': 11.070696456018238}"}, {"id": 203, "label": "whalley-g", "group": "User", "title": "{'degree': 22.0, 'user': 'whalley-g', 'eigenvector': 37.143199411812574}"}, {"id": 209, "label": "lavorato-j", "group": "User", "title": "{'degree': 32.0, 'user': 'lavorato-j', 'eigenvector': 45.154545204374344}"}, {"id": 226, "label": "derrick-j", "group": "User", "title": "{'degree': 11.0, 'user': 'derrick-j', 'eigenvector': 19.312538792970926}"}, {"id": 224, "label": "skilling-j", "group": "User", "title": "{'degree': 15.0, 'user': 'skilling-j', 'eigenvector': 17.369337698105127}"}, {"id": 102, "label": "tori.wells@enron.com", "group": "Address", "title": "{'degree': 3.0, 'address': 'tori.wells@enron.com', 'eigenvector': 6.465738988141863}"}];
+      var edges  = [{"from": 223, "to": 103, "label": "ALIAS"}, {"from": 103, "to": 190, "label": "RECIVED"}, {"from": 223, "to": 103, "label": "ALIAS"}, {"from": 103, "to": 200, "label": "RECIVED"}, {"from": 223, "to": 103, "label": "ALIAS"}, {"from": 103, "to": 273, "label": "RECIVED"}, {"from": 223, "to": 103, "label": "ALIAS"}, {"from": 103, "to": 239, "label": "RECIVED"}, {"from": 223, "to": 103, "label": "ALIAS"}, {"from": 103, "to": 227, "label": "RECIVED"}, {"from": 223, "to": 103, "label": "ALIAS"}, {"from": 103, "to": 263, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 225, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 237, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 227, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 200, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 190, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 239, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 286, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 274, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 203, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 209, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 226, "label": "RECIVED"}, {"from": 223, "to": 101, "label": "ALIAS"}, {"from": 101, "to": 224, "label": "RECIVED"}, {"from": 223, "to": 102, "label": "ALIAS"}, {"from": 102, "to": 190, "label": "RECIVED"}, {"from": 223, "to": 102, "label": "ALIAS"}, {"from": 102, "to": 200, "label": "RECIVED"}];
+      var container = document.getElementById("cf4f16ec-c880-4402-a693-5684ef10ef58");
+      var data = {
+        nodes: nodes,
+        edges: edges
+      };
+      var options = {
+          nodes: {
+              shape: 'dot',
+              size: 25,
+              font: {
+                  size: 14
+              }
+          },
+          edges: {
+              font: {
+                  size: 14,
+                  align: 'middle'
+              },
+              color: 'gray',
+              arrows: {
+                  to: {enabled: true, scaleFactor: 0.5}
+              },
+              smooth: {enabled: false}
+          },
+          physics: {
+              enabled: false
+          }
+      };
+      var network = new vis.Network(container, data, options);
+    </script>
+    </body>
+    </html>
+    
