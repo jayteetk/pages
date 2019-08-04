@@ -50,11 +50,13 @@ There are certain weaknesses in each package that the other has powerful tools f
 
 3) Implement stop words.
 
-  I am sure all of us have at one point in our lives communicated(or tried to) with someone who spoke a different language. Is it any wonder why for more simplistic sentences we were able to understand them? or despite a poor grasp of grammar, some how ideas were still communicated? hopefully you would wonder no further as it is because key words were mentioned and the concept was understood beyond your heavy gesticulation.
+  I am sure all of us have at one point in our lives communicated (or tried to) with someone who spoke a different language. Is it any wonder why for more simplistic sentences we were able to understand them? or despite a poor grasp of grammar, some how ideas were still communicated? hopefully you would wonder no further as it is because key words were mentioned and the concept was understood beyond your heavy gesticulation.
 
 * These words are what we call stop words - words that are commonly used but have no real topical meaning.
 
-Some of these words include I, we, be, really, them, they, and, the, are, for, at. let us use the preceding sentence as an example.
+Some of these words include " I, we, be, really, them, they, and, the, are, for, at".
+
+Let us use the preceding sentence as an example.
 
 * words call stop words - words commonly used no real topical meaning.
 
@@ -62,8 +64,7 @@ or how about:
 
 * process standardizing same word despite many forms
 
-
-pretty sure we can guess what that sentence refers to.
+pretty sure we can guess what that sentence refers to (Ans: lemmatization/stemming).
 
 SpaCy? or Gensim you ask? well, if you're unwilling to download over 1 GB of data for use spaCy may be the better deal. SpaCy offers several packages [here](https://spacy.io/models/en) and even for different langauges. Both libraries allow for customization of these words on the fly, which i would thoroughly recommend, as we would need to filter out 'words' that may not mean much depending on what sort of signal you may be looking for.
 
