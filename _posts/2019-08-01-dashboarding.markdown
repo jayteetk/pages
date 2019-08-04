@@ -43,8 +43,11 @@ The following screenshots are pulled from a ipynb file with a javascript plugin 
 
 **NOTE:** edits were made to the vis.py file to pull specific Cypher queries that met my requirements. Otherwise, the script calls the entire database.
 
-[ken lay network]({{site.baseurl}}/assets/links/lay-k.html)
-[skilling network]({{site.baseurl}}/assets/links/skilling-j.html)
+Links are constructed using py2neo into HTML. Screenshots were directly from Neo4J Desktop.
+
+[![lay-k network]({{site.baseurl}}/assets/img/layk.jpg)]({{site.baseurl}}/assets/links/lay-k.html)
+
+[![lay-k network]({{site.baseurl}}/assets/img/skillingj.jpg)]({{site.baseurl}}/assets/links/skilling-j.html)
 
 
 ### Total Sent/Received by email/users by topic
@@ -67,7 +70,7 @@ The following 2 charts are for Kenneth Lay.
 ![Compliance, lay-k]({{site.baseurl}}/assets/img/t3-klay.jpg)
 ![Trading, lay-k]({{site.baseurl}}/assets/img/t4-klay.jpg)
 
-Due to the spikes in conversations prior to the appointment of skilling as CEO, it is a little difficult to observe any signficant difference, however, if we were to drill down to the period where skilling was appointed, for the most, 2001. We observe Kenneth's conversations on compliance is deteriorating, along with the rest of the company. Where as on the topic of trading, he appears to have kept it stable where the company is acting otherwise.
+Due to the spikes in conversations prior to the appointment of skilling as CEO, it is a little difficult to observe any significant difference, however, if we were to drill down to the period where skilling was appointed, for the most, 2001. We observe Kenneth's conversations on compliance is deteriorating, along with the rest of the company. Where as on the topic of trading, he appears to have kept it stable where the company is acting otherwise.
 
 The following 2 charts are for Skilling-j.
 
