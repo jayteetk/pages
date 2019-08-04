@@ -5,7 +5,7 @@ date: 2019-07-31 00:00:00 +0800
 description: NLP techniques # Add post description (optional)
 img: spacy.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
-tags: [Enron, NLP, SpaCy, Gensim] # add tag
+tags: [Enron, NLP, SpaCy, Gensim, Enron] # add tag
 ---
 
 ## What makes a language?
@@ -52,15 +52,15 @@ There are certain weaknesses in each package that the other has powerful tools f
 
   I am sure all of us have at one point in our lives communicated(or tried to) with someone who spoke a different language. Is it any wonder why for more simplistic sentences we were able to understand them? or despite a poor grasp of grammar, some how ideas were still communicated? hopefully you would wonder no further as it is because key words were mentioned and the concept was understood beyond your heavy gesticulation.
 
-    * These words are what we call stop words - words that are commonly used but have no real topical meaning.
+* These words are what we call stop words - words that are commonly used but have no real topical meaning.
 
 Some of these words include I, we, be, really, them, they, and, the, are, for, at. let us use the preceding sentence as an example.
 
-    * words call stop words - words commonly used no real topical meaning.
+* words call stop words - words commonly used no real topical meaning.
 
 or how about:
 
-    * process standardizing same word despite many forms
+* process standardizing same word despite many forms
 
 
 pretty sure we can guess what that sentence refers to.

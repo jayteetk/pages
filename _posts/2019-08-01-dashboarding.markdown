@@ -4,14 +4,13 @@ title: Dashboarding
 date: 2019-08-01 13:32:20 +0800
 description: Creating Dashboards for Intuitive use # Add post description (optional)
 img: network-head.jpg # Add image post (optional)
-tags: [Dashboards, Neo4J, JS]
+tags: [Dashboards, Neo4J, JS, Enron]
 ---
 
 ## Dashboards
-Data science and analytics are interesting - but can be made more interesting through visualizations.
+Data science and analytics are interesting - but can be made more interesting through visualizations. The banner picture above by the way, is from Ne4J. I have not included too much of the use in these posts as the main purpose would be to compute degree and eigenvector values. Additionally, under "Extent of Network" section below we have queried this data using [py2neo v3](https://py2neo.org/v3/) and was able to pull n4j database from our notebook. You can check out my github for more details!
 
-Enter dashboarding.
-
+### Enter dashboarding.
 While this is a work in progress, as part of the deliverables (to myself) it is definitely worth while to create tools to enable dashboards.
 Eventually, I strive to host this online just so that we can play around with various variables.
 

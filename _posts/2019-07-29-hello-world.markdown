@@ -4,7 +4,7 @@ title: Hello World
 date: 2019-07-29 00:00:00 +0800
 description: "Preamble to an analytics and POC exercise on the Enron Corpus"  # Add post description (optional)
 img: neuler2.jpg # Add image post (optional)
-tags: [Enron, Project Management] # add tag
+tags: [Enron, Project Management, Enron] # add tag
 ---
 ## Foreword
 If you're on this page, chances are you're here on introduction.. or you've been trawling github.

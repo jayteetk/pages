@@ -4,7 +4,7 @@ title: Topic Modelling (LDA & NMF)
 date: 2019-07-31 00:00:00 +0800
 description: Latent Dirichlet Allocation and Non-Negative Matrix Factorization # Add post description (optional)
 img: lda-head.jpg # Add image post (optional)
-tags: [LDA, Gensim, NLP] # add tag
+tags: [LDA, Gensim, NLP, Enron] # add tag
 ---
 ## What is in a topic?
 Topic modelling is the task of identifying topics through semantic text structure that describes a set of documents. Each method described below relies on different ideas on how topics are deduced or understood.
@@ -15,7 +15,7 @@ Short for Latent Diriclet Allocation, the word 'Latent' is used as topics will o
 
 How does it work?
 To quote the paper:
-> > The basic idea is that documents are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words."
+> The basic idea is that documents are represented as random mixtures over latent topics, where each topic is characterized by a distribution over words."
 
 The concept is intuitive, if I were to talk about things such as market capitalization, relative valuation, share price, earnings. *Probably* a discussion on equity valuation, or equity. Conversely, if it were to be risk free rate, maturity period, par value. *Probably* a discussion along the lines of fixed income assets. Even for somewhat similar topics we can observe with some clarity the different topics arising from key words. Of course, as with most machine interpreted results, this is a probability, in the given example, it could be a particular bond that was issued by the company in which it is likely to default on. Determining the specific topic, would then be tricky as both topics are equally likely with no necessary dominant singular topic.
 
@@ -71,7 +71,7 @@ p.s. there is also a perplexity score, which I have computed but did not find it
 ## Result
 For the most the modelling is done and we have coherence scores to show which is the 'better' model. I have chosen coherence as the measure to define success as it allows us to better interpret the topics and identify topical trends over time. As a result our LDA model provides a better UCI coherence at 0.551 compared to the best UCI for NMF of 0.23. The illustration below using pyLDAvis demonstrates a good separation of topics. I have seletced topics 3 and 4 to show below.
 
-Our final topic list is as follows
+Our final topic list is as follows:
 
 ```python
 topic_dict_lda3={0:'office communications',
@@ -85,4 +85,7 @@ topic_dict_lda3={0:'office communications',
 ```
 
 ![topic 3]({{site.baseurl}}/assets/img/topic_3.jpg)
+Above is mainly on the topic of operational compliance with words such as FERC (federal energy regulatory commission) price, rates and the California [crisis in the early 2000s](https://en.wikipedia.org/wiki/California_electricity_crisis)
+
 ![topic 4]({{site.baseurl}}/assets/img/topic4.jpg)
+Above is mainly on the topic of trading with words such as deal, volume, trade, book, NYMEX (New York mercantile exchange)

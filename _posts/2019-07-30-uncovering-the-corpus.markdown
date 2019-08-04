@@ -4,7 +4,7 @@ title: Uncovering the Corpus
 date: 2019-07-30 00:00:00 +0800
 description: Getting the Enron Corpus and making it machine readable # Add post description (optional)
 img: how-to-start.jpg # Add image post (optional)
-tags: [Enron, Data Cleaning, Regex] # add tag
+tags: [Enron, Data Cleaning, Regex, Enron] # add tag
 ---
 ## 500,000 entries, 2,000,000 data points
 
