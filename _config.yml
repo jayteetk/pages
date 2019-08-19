@@ -1,6 +1,6 @@
-title: Justin Chen - GitBlog
+title: @jayteetk
 description: > # this means to ignore newlines until "baseurl:"
-  Data Enthusiast, Pratical technophile. Ex Bloomberg.
+  Data Enthusiast, Pratical technophile. Ex Bloomberg. @jayteetk
 permalink: ':title/'
 baseurl: "/pages" # the subpath of your site, e.g. /blog
 url: "https://jayteetk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
